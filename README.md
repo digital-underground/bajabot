@@ -22,6 +22,10 @@
     -o models \
     --project current
 
+# Start servers to interact with bajabot
+
+  docker-compose up
+
 # Send message to bajabot
 
   curl --request POST \
